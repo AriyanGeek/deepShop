@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANSans;
+  font-weight: normal;
+  src: url("../fonts/IRANSansWeb.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-weight: bold;
+  src: url("../fonts/IRANSansWeb_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-weight: lighter;
+  src: url("../fonts/IRANSansWeb_Light.ttf") format("truetype");
+}
+
+body {
+  @apply font-main;
+}
